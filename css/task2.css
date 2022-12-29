@@ -1,0 +1,37 @@
+/* .nav-link{
+    padding: 0;
+} */
+
+.st{
+    font-size: 40px;
+}
+
+.st1{
+    padding-left: 10px;
+}
+.ste{
+    font-size: 28px;
+}
+
+.uli{
+    list-style-type: none;
+    padding: 0;
+}
+
+.uli li a{
+text-decoration: none;
+}
+
+/* .st1{
+    font-size: 28px;
+
+} */
+
+.footer a{
+    text-decoration: none;
+}
+
+.nav-item{
+    margin-right: 29px;
+}
+    
