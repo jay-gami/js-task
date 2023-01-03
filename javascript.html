@@ -95,13 +95,59 @@
 //     i++;
 // }
 
-let age = 9;
-if(age>10 && age<20){
-    document.write("your age is less than 10")
+// let age = 9;
+// if(age>10 && age<20){
+//     document.write("your age is less than 10")
+// }
+// else{
+//     document.write("your age is greater than 20")
+// }
+
+
+// let text = "";
+// let i = 0;
+// while (i < 10) {
+//   text += "<br>The number is " + i;
+//   i++;
+
+//   document.write(i)
+// }
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.write(fruits.toString());
+// document.write(fruits.join("+"));
+// document.write(fruits.pop()); 
+// document.write(fruits.push("carrot"));
+// document.write(fruits.unshift("Lemon"));
+// document.write(fruits[0]="kiwi"); 
+// document.write(fruits);
+
+
+// const numbers1 = [45, 4, 9, 16, 25];
+// const numbers2 = numbers1.map(my);
+
+
+// function my(value) {
+//   return value * 2;
+// }
+
+// document.write(numbers2);
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.filter(xyz);
+
+function xyz(value, index, array) {
+  return value > 12;
 }
-else{
-    document.write("your age is greater than 20")
-}
+document.write(numbers2);
+
+
+
+
+
+
+
+
 </script>
 </body>
 </html>
