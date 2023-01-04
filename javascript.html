@@ -206,15 +206,26 @@
 
 // do while using array
 
-const car=["1","2","3","4","5","6","7","8"];
-let i=0;
+// const car=["1","2","3","4","5","6","7","8"];
+// let i=0;
 
-do{
-  document.write(car[i]);
+// do{
+//   document.write(car[i]);
+//   i++;
+// }while(i<car.length);
+
+
+let array = ['a','b','c','b','d','e','d','b','b','b','d','d'];
+let i = 0;
+while (i < array.length){
+  if (array[i] === 'b'){
+      array.splice(i,1);
+      i--;
+  }
   i++;
-}while(i<car.length);
 
-
+}
+document.write(array);
 
 
 
