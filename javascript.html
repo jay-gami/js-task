@@ -219,21 +219,27 @@
 // document.write("correct <br>")
 // }
 
-let i=1;
-while(i<20){
-  if(i>22){
-    document.write("one <br>");
-  }else
-  document.write("right <br>")
-i++;
+// let i=1;
+// while(i<20){
+//   if(i>22){
+//     document.write("one <br>");
+//   }else
+//   document.write("right <br>")
+// i++;
+// }
+
+const time=new Date().getDay();
+let meet;
+if(time<1){
+  meet="its jan5";
 }
-
-
-
-
-
-
-
+else if(time<4){
+  meet="its more than jan 15";
+}else{
+  
+  meet="ITS NOT A NUMBER";
+}
+document.write(meet)
 </script>
 </body>
 </html>
