@@ -241,34 +241,44 @@
 // }
 // document.write(meet)
 
-let text;
-switch(new Date().getHours()){
-  case 1:
-    text="today";
-    break;
-    case 12:
-    text="A day after tomorrow";
-    break;
-    case 13:
-    text="A day after tomorrow's day";
-    break;
-    case 2104:
-    text="tomorrow days after tomorrow days";
-    break;
-    case 1005:
-    text="onr";
-    break;
-    case 5:
-    text="two";
-    break;
-    case 7:
-    text="three";
-    break;
+// let text;
+// switch(new Date().getSeconds()){
+//   case 1:
+//     text="today";
+//     break;
+//     case 2:
+//     text="A day after tomorrow";
+//     break;
+//     case 3:
+//     text="A day after tomorrow's day";
+//     break;
+//     case 4:
+//     text="tomorrow days after tomorrow days";
+//     break;
+//     case 5:
+//     text="onr";
+//     break;
+//     case 6:
+//     text="two";
+//     break;
+//     case 7:
+//     text="three";
+//     break;
 
-    default:
-      text="looking next";
-}
-document.write(text);
+//     default:
+//       text="looking next";
+// }
+
+const l=new Set();
+
+l.add("a");
+l.add("b");
+l.add("c");
+l.add("ac");
+
+
+
+document.write(l.size);
 </script>
 </body>
 </html>
