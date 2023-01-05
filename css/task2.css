@@ -2,24 +2,24 @@
     padding: 0;
 } */
 
-.st{
-    font-size: 40px;
+.st {
+  font-size: 40px;
 }
 
-.st1{
-    padding-left: 10px;
+.st1 {
+  padding-left: 10px;
 }
-.ste{
-    font-size: 28px;
-}
-
-.uli{
-    list-style-type: none;
-    padding: 0;
+.ste {
+  font-size: 28px;
 }
 
-.uli li a{
-text-decoration: none;
+.uli {
+  list-style-type: none;
+  padding: 0;
+}
+
+.uli li a {
+  text-decoration: none;
 }
 
 /* .st1{
@@ -27,11 +27,10 @@ text-decoration: none;
 
 } */
 
-.footer a{
-    text-decoration: none;
+.footer a {
+  text-decoration: none;
 }
 
-.nav-item{
-    margin-right: 29px;
+.nav-item {
+  margin-right: 29px;
 }
-    
