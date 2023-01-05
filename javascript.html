@@ -228,18 +228,47 @@
 // i++;
 // }
 
-const time=new Date().getDay();
-let meet;
-if(time<1){
-  meet="its jan5";
-}
-else if(time<4){
-  meet="its more than jan 15";
-}else{
+// const time=new Date().getDay();
+// let meet;
+// if(time<1){
+//   meet="its jan5";
+// }
+// else if(time<4){
+//   meet="its more than jan 15";
+// }else{
   
-  meet="ITS NOT A NUMBER";
+//   meet="ITS NOT A NUMBER";
+// }
+// document.write(meet)
+
+let text;
+switch(new Date().getHours()){
+  case 1:
+    text="today";
+    break;
+    case 12:
+    text="A day after tomorrow";
+    break;
+    case 13:
+    text="A day after tomorrow's day";
+    break;
+    case 2104:
+    text="tomorrow days after tomorrow days";
+    break;
+    case 1005:
+    text="onr";
+    break;
+    case 5:
+    text="two";
+    break;
+    case 7:
+    text="three";
+    break;
+
+    default:
+      text="looking next";
 }
-document.write(meet)
+document.write(text);
 </script>
 </body>
 </html>
