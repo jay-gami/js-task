@@ -1,3 +1,3 @@
-
-<button type="button" onclick="myFunction()">click me</button>
-
+<button type="button" onclick="myFunction()">
+  click me
+</button>;

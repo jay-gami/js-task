@@ -1,284 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 </head>
+
 <body>
+  <!-- <p id="one"></p> -->
 
-    <!-- <p id="one"></p> -->
+  <script>
+    // string
+    // let text1="jay, name, one,jay, name, one";
+    // let text2='jay2 ';
+    // let text3="I SAW A GUY WHOSE NAME IS 'JAY'";
+    // let text4='I SAW A GUY WHOSE NAME IS "JAY"';
+    // let text6=" jay, name, one";
+    // let text5 = text1.concat(" ",text2);
+    // let text9 = text6.trim();
 
+    // document.getElementById("one").innerHTML=text1+" <br>"+text2+" <br>"+text3+" <br>"+text4+"<br>"+text1.length+"<br>"+text1.slice(5,8)
+    // +"<br>"+text1.substring(5,8)+"<br>"+text1.substr(5,8)+"<br>"+text9.length+"<br>"+text1.charAt(0)+"<br>"+text1.charCodeAt(0)
+    // +"<br>"+text1.indexOf("name")+"<br>"+text1.lastIndexOf("one");
+    // ;
 
+    // const bus = {type:"Benz",
+    //  model:"9800",
+    //  color:"white"}
+    //  ;
 
-<script>
+    // document.getElementById("one").innerHTML=bus.type+"  "+bus.color;
 
-    
+    // for loop
+    // let i=10;
+    // for(let a=4;a<i;a++){
+    // document.write(a)
+    // }
 
-// string
-// let text1="jay, name, one,jay, name, one";
-// let text2='jay2 ';
-// let text3="I SAW A GUY WHOSE NAME IS 'JAY'";
-// let text4='I SAW A GUY WHOSE NAME IS "JAY"';
-// let text6=" jay, name, one";
-// let text5 = text1.concat(" ",text2);
-// let text9 = text6.trim();
+    //   for-in loop
+    // let obj ={
+    //     jay:15,
+    //     shubh:70
+    // }
+    // for(let a in obj){
+    //     console.log(a)
 
+    // }
+    // for (let b of "jay"){
+    //     console.log(b)
+    // }
 
+    // while loop
 
+    // let a = prompt("enter value")
+    // a = Number.parseInt(a)
 
+    // let i=8;
+    // while(i<20){
+    //     console.log(i)
+    //     i++;
+    // }
 
+    // let i=12;
+    // do{
+    // document.write(i+"<br>")
+    //     i++;
+    // }while(i<=20);
 
+    // logical and
+    // letlet i=8;
+    // while(i<20){
+    //     console.log(i)
+    //     i++;
+    // }
 
-// document.getElementById("one").innerHTML=text1+" <br>"+text2+" <br>"+text3+" <br>"+text4+"<br>"+text1.length+"<br>"+text1.slice(5,8)
-// +"<br>"+text1.substring(5,8)+"<br>"+text1.substr(5,8)+"<br>"+text9.length+"<br>"+text1.charAt(0)+"<br>"+text1.charCodeAt(0)
-// +"<br>"+text1.indexOf("name")+"<br>"+text1.lastIndexOf("one");
-// ;
+    // let age = 9;
+    // if(age>10 && age<20){
+    //     document.write("your age is less than 10")
+    // }
+    // else{
+    //     document.write("your age is greater than 20")
+    // }
 
-  
+    // let text = "";
+    // let i = 0;
+    // while (i < 10) {
+    //   text += "<br>The number is " + i;
+    //   i++;
 
-// const bus = {type:"Benz",
-//  model:"9800", 
-//  color:"white"}
-//  ; 
+    //   document.write(i)
+    // }
 
+    // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    // document.write(fruits.toString());
+    // document.write(fruits.join("+"));
+    // document.write(fruits.pop());
+    // document.write(fruits.push("carrot"));
+    // document.write(fruits.unshift("Lemon"));
+    // document.write(fruits[0]="kiwi");
+    // document.write(fruits);
 
-// document.getElementById("one").innerHTML=bus.type+"  "+bus.color;
+    // const numbers1 = [45, 4, 9, 16, 25];
+    // const numbers2 = numbers1.map(my);
 
-// for loop
-// let i=10;
-// for(let a=4;a<i;a++){
-// document.write(a)
-// }
+    // function my(value) {
+    //   return value * 2;
+    // }
 
-//   for-in loop
-// let obj ={
-//     jay:15,
-//     shubh:70
-// }
-// for(let a in obj){
-//     console.log(a)
+    // document.write(numbers2);
+    // const numbers1 = [45, 4, 10, 16, 25];
+    // const numbers2 = numbers1.reduce(xyz,12);
 
-// }
-// for (let b of "jay"){
-//     console.log(b)
-// }
+    // function xyz(value,total , array) {
+    //   return value + total;
+    // }
+    // document.write(numbers2);
+    // var grade = 'A';
+    //             document.write("Entering switch block<br />");
+    //             switch (grade) {
+    //                case 'A': document.write("Nice job<br />");
+    //                break;
 
+    //                case 'B': document.write("Pretty good<br />");
+    //                break;
 
-// while loop
+    //                case 'C': document.write("Passed<br />");
+    //                break;
 
-// let a = prompt("enter value")
-// a = Number.parseInt(a)
+    //                case 'D': document.write("Not so good<br />");
+    //                break;
 
+    //                case 'F': document.write("Failed<br />");
+    //                break;
 
-// let i=8;
-// while(i<20){
-//     console.log(i)
-//     i++;
-// }
+    //                default:  document.write("Unknown grade<br />")
+    //             }
+    //             document.write("Exiting switch block");
 
+    // let day;
+    // switch (new Date().getDay()) {
+    //   case 0:
+    //     day = "Sunday";
+    //     break;
+    //   case 1:
+    //     day = "Monday";
+    //     break;
+    //   case 2:
+    //     day = "Tuesday";
+    //     break;
+    //   case 3:
+    //     day = "Wednesday";
+    //     break;
+    //   case 4:
+    //     day = "Thursday";
+    //     break;
+    //   case 5:
+    //     day = "Friday";
+    //     break;
+    //   case  6:
+    //     day = "Saturday";
+    // }
+    // document.write(day)
 
-// let i=12;
-// do{
-// document.write(i+"<br>")
-//     i++;
-// }while(i<=20);
- 
+    //for loop using array
 
+    // const car=["1","2","3","4","5","6","7","8"];
+    // for(i=0;i<car.length;i++){
+    //   document.write(car[i])
+    // }
 
-// logical and
-// letlet i=8;
-// while(i<20){
-//     console.log(i)
-//     i++;
-// }
+    //while loop using array
+    // let i=0;
+    // const car=["1","2","3","4","5","6","7","8"];
+    // while(i<car.length){
+    //   document.write(car[i]);
+    //   i++;
+    // }
 
-// let age = 9;
-// if(age>10 && age<20){
-//     document.write("your age is less than 10")
-// }
-// else{
-//     document.write("your age is greater than 20")
-// }
+    // do while using array
 
+    // const car=["1","2","3","4","5","6","7","8"];
+    // let i=0;
 
-// let text = "";
-// let i = 0;
-// while (i < 10) {
-//   text += "<br>The number is " + i;
-//   i++;
+    // do{
+    //   document.write(car[i]);
+    //   i++;
+    // }while(i<car.length);
 
-//   document.write(i)
-// }
+    // for(i=3;i<21;i++){
 
+    // document.write("correct <br>")
+    // }
 
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// document.write(fruits.toString());
-// document.write(fruits.join("+"));
-// document.write(fruits.pop()); 
-// document.write(fruits.push("carrot"));
-// document.write(fruits.unshift("Lemon"));
-// document.write(fruits[0]="kiwi"); 
-// document.write(fruits);
+    // let i=1;
+    // while(i<20){
+    //   if(i>22){
+    //     document.write("one <br>");
+    //   }else
+    //   document.write("right <br>")
+    // i++;
+    // }
 
+    // const time=new Date().getDay();
+    // let meet;
+    // if(time<1){
+    //   meet="its jan5";
+    // }
+    // else if(time<4){
+    //   meet="its more than jan 15";
+    // }else{
 
-// const numbers1 = [45, 4, 9, 16, 25];
-// const numbers2 = numbers1.map(my);
+    //   meet="ITS NOT A NUMBER";
+    // }
+    // document.write(meet)
 
+    // let text;
+    // switch(new Date().getSeconds()){
+    //   case 1:
+    //     text="today";
+    //     break;
+    //     case 2:
+    //     text="A day after tomorrow";
+    //     break;
+    //     case 3:
+    //     text="A day after tomorrow's day";
+    //     break;
+    //     case 4:
+    //     text="tomorrow days after tomorrow days";
+    //     break;
+    //     case 5:
+    //     text="onr";
+    //     break;
+    //     case 6:
+    //     text="two";
+    //     break;
+    //     case 7:
+    //     text="three";
+    //     break;
 
-// function my(value) {
-//   return value * 2;
-// }
+    //     default:
+    //       text="looking next";
+    // }
 
-// document.write(numbers2);
-// const numbers1 = [45, 4, 10, 16, 25];
-// const numbers2 = numbers1.reduce(xyz,12);
+    const l = new Set();
 
-// function xyz(value,total , array) {
-//   return value + total;
-// }
-// document.write(numbers2);
-// var grade = 'A';
-//             document.write("Entering switch block<br />");
-//             switch (grade) {
-//                case 'A': document.write("Nice job<br />");
-//                break;
-            
-//                case 'B': document.write("Pretty good<br />");
-//                break;
-            
-//                case 'C': document.write("Passed<br />");
-//                break;
-            
-//                case 'D': document.write("Not so good<br />");
-//                break;
-            
-//                case 'F': document.write("Failed<br />");
-//                break;
-            
-//                default:  document.write("Unknown grade<br />")
-//             }
-//             document.write("Exiting switch block");
+    l.add("a");
+    l.add("b");
+    l.add("c");
+    l.add("ac");
 
-
-// let day;
-// switch (new Date().getDay()) {
-//   case 0:
-//     day = "Sunday";
-//     break;
-//   case 1:
-//     day = "Monday";
-//     break;
-//   case 2:
-//     day = "Tuesday";
-//     break;
-//   case 3:
-//     day = "Wednesday";
-//     break;
-//   case 4:
-//     day = "Thursday";
-//     break;
-//   case 5:
-//     day = "Friday";
-//     break;
-//   case  6:
-//     day = "Saturday";
-// }
-// document.write(day)
-
-//for loop using array
-
-// const car=["1","2","3","4","5","6","7","8"];
-// for(i=0;i<car.length;i++){
-//   document.write(car[i])
-// }
-
-
-//while loop using array
-// let i=0;
-// const car=["1","2","3","4","5","6","7","8"];
-// while(i<car.length){
-//   document.write(car[i]);
-//   i++;
-// }
-
-// do while using array
-
-// const car=["1","2","3","4","5","6","7","8"];
-// let i=0;
-
-// do{
-//   document.write(car[i]);
-//   i++;
-// }while(i<car.length);
-
-// for(i=3;i<21;i++){
-
-// document.write("correct <br>")
-// }
-
-// let i=1;
-// while(i<20){
-//   if(i>22){
-//     document.write("one <br>");
-//   }else
-//   document.write("right <br>")
-// i++;
-// }
-
-// const time=new Date().getDay();
-// let meet;
-// if(time<1){
-//   meet="its jan5";
-// }
-// else if(time<4){
-//   meet="its more than jan 15";
-// }else{
-  
-//   meet="ITS NOT A NUMBER";
-// }
-// document.write(meet)
-
-// let text;
-// switch(new Date().getSeconds()){
-//   case 1:
-//     text="today";
-//     break;
-//     case 2:
-//     text="A day after tomorrow";
-//     break;
-//     case 3:
-//     text="A day after tomorrow's day";
-//     break;
-//     case 4:
-//     text="tomorrow days after tomorrow days";
-//     break;
-//     case 5:
-//     text="onr";
-//     break;
-//     case 6:
-//     text="two";
-//     break;
-//     case 7:
-//     text="three";
-//     break;
-
-//     default:
-//       text="looking next";
-// }
-
-const l=new Set();
-
-l.add("a");
-l.add("b");
-l.add("c");
-l.add("ac");
-
-
-
-document.write(l.size);
-</script>
+    document.write(l.size);
+  </script>
 </body>
+
 </html>
